@@ -1,7 +1,6 @@
 Rails.application.routes.draw do
 
   resources :articles
-  resources :content
   resources :author
 
   root to: 'pages#home'
